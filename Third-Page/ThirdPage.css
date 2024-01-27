@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (min-width: 900px) {
+  header {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.516);
+    width: 100%;
+    height: 8vh;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 8vh;
+  }
+  li {
+    display: flex;
+    align-items: center;
+  }
+  .a-header {
+    display: flex;
+    font-size: 1.4rem;
+  }
+  .section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 5px;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.547);
+    border-radius: 15px;
+    width: 13rem;
+    height: 17rem;
+    gap: 2.5rem;
+  }
+  .brown,
+  .yellow,
+  .orange,
+  .beige {
+    width: 100px;
+    height: 100px;
+    border-radius: 47% 0 47% 50%;
+  }
+  .brown {
+    background-color: brown;
+    border: 2px solid brown;
+  }
+  .orange {
+    background-color: orange;
+    border: 2px solid orange;
+  }
+  .yellow {
+    background-color: yellow;
+    border: 2px solid yellow;
+  }
+  .beige {
+    background-color: beige;
+    border: 2px solid beige;
+  }
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+  }
+  figcaption {
+    font-size: large;
+    font-weight: bold;
+  }
+  table {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 70%;
+  }
+  td {
+    border: 1.5px solid black;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 4%;
+  }
+}
+@media (max-width: 899px) {
+  header {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.516);
+    width: 100%;
+    height: 5vh;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 5vh;
+  }
+  li {
+    display: flex;
+    align-items: center;
+  }
+  .a-header {
+    display: flex;
+    font-size: 1.1rem;
+  }
+  .section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 5px;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.547);
+    border-radius: 15px;
+    width: 8.5rem;
+    height: 11rem;
+    gap: 2.5rem;
+  }
+  .brown,
+  .yellow,
+  .orange,
+  .beige {
+    width: 70px;
+    height: 70px;
+    border-radius: 47% 0 47% 50%;
+  }
+  .brown {
+    background-color: brown;
+    border: 1px solid brown;
+  }
+  .orange {
+    background-color: orange;
+    border: 1px solid orange;
+  }
+  .yellow {
+    background-color: yellow;
+    border: 1px solid yellow;
+  }
+  .beige {
+    background-color: beige;
+    border: 1px solid beige;
+  }
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  figcaption {
+    font-size: large;
+    font-weight: bold;
+  }
+  table {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 70%;
+  }
+  td {
+    border: 1.5px solid black;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 4%;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.516);
+    width: 100%;
+    height: 5vh;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 5vh;
+  }
+  li {
+    display: flex;
+    align-items: center;
+  }
+  .a-header {
+    display: flex;
+    font-size: 0.9rem;
+  }
+  .section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 7px;
+    gap: 3px;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.547);
+    border-radius: 15px;
+    width: 6rem;
+    height: 8.5rem;
+    gap: 2.5rem;
+  }
+  .brown,
+  .yellow,
+  .orange,
+  .beige {
+    width: 50px;
+    height: 50px;
+    border-radius: 47% 0 47% 50%;
+  }
+  .brown {
+    background-color: brown;
+    border: 1px solid brown;
+  }
+  .orange {
+    background-color: orange;
+    border: 1px solid orange;
+  }
+  .yellow {
+    background-color: yellow;
+    border: 1px solid yellow;
+  }
+  .beige {
+    background-color: beige;
+    border: 1px solid beige;
+  }
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  figcaption {
+    font-size: small;
+    font-weight: bold;
+  }
+  table {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 70%;
+  }
+  td {
+    border: 1.5px solid black;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 4%;
+  }
+}
+@media (max-width: 410px) {
+  header {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.516);
+    width: 100%;
+    height: 4.5vh;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 4.5vh;
+  }
+  li {
+    display: flex;
+    align-items: center;
+  }
+  .a-header {
+    display: flex;
+    font-size: 0.7rem;
+  }
+  .section-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5.5px;
+    gap: 2px;
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.547);
+    border-radius: 15px;
+    width: 4.8rem;
+    height: 7rem;
+    gap: 1.2rem;
+  }
+  .brown,
+  .yellow,
+  .orange,
+  .beige {
+    width: 40px;
+    height: 40px;
+    border-radius: 47% 0 47% 50%;
+  }
+  .brown {
+    background-color: brown;
+    border: 1px solid brown;
+  }
+  .orange {
+    background-color: orange;
+    border: 1px solid orange;
+  }
+  .yellow {
+    background-color: yellow;
+    border: 1px solid yellow;
+  }
+  .beige {
+    background-color: beige;
+    border: 1px solid beige;
+  }
+  figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  figcaption {
+    font-size: x-small;
+    font-weight: bold;
+  }
+  table {
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 70%;
+  }
+  td {
+    border: 1.5px solid black;
+  }
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2%;
+  }
+  th{
+  font-size: small;}
+  td{
+  font-size: x-small;}
+}
